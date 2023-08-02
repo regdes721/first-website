@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reginald Desrosiers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Cinzel&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p>Reginald Desrosiers</p>
+
+    <span><a href="index.html">home</a></span>
+    <span><a href="form.html">contact</a></span>
+    <span><a href="websites.html">websites</a></span>
+    <span><a href="art.html">art</a></span>
+
+    <form action="/form-handling-url" method="post">
+        <fieldset>
+            <legend>Contact me!</legend>
+
+            <div>
+            <label for="firstName">First name:</label>
+            <input type="text" id="firstName" name="first_name">
+            </div>
+
+            <div>
+            <label for="lastName">Last name:</label>
+            <input type="text" id="lastName" name="last_name">
+            </div>
+
+            <div>
+            <label for="message">Speak Your Mind:</label>
+            <textarea id="message" name="message"></textarea>
+            </div>
+
+            <div>
+                <input type="checkbox" id="conditions" name="conditions" />
+                <label for="conditions">I understand that this message might not receive a response</label>
+              </div>
+
+            <div>
+            <button type="submit">Submit</button>
+            </div>
+            </fieldset>
+          </form>
+</body>
+</html>
