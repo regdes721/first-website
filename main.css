@@ -1,0 +1,66 @@
+h1 {
+    font-family: 'Castoro Titling', cursive;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    color: #808ec0;
+}
+
+p {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.profile-border {
+    border: 2px solid blue;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 70%;
+    height: 70%;
+    margin-left: 175px;
+}
+
+.headings {
+    display: flex;
+    justify-content: center;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.art {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.art-items {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+#firstName, #lastName {
+    padding-left: 40px;
+}
